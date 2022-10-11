@@ -1,0 +1,177 @@
+/* apply monaco font */
+body {
+  font-family: 'Monaco', monospace;
+}
+
+ul.navbar {
+    /* add flex */
+    display: flex;
+    /* add flex-direction */
+    flex-direction: row;
+    /* add space between */
+    justify-content: space-evenly;
+    /* remove href bars */
+    list-style: none;
+    /* remove line source */
+    text-decoration: none;
+    padding: 1% 20%;
+    background-color: #3a3a3a;
+}
+
+a:not(.project-link) {
+    /* add color */
+    color: #fff;
+    /* add text-decoration */
+    text-decoration: none;
+}
+
+/* add hover */
+a:hover {
+    /* add underline */
+    text-decoration: underline;
+    /* add underline transition */
+    transition: .5s;
+}
+
+/* apply red text to all the classes that contains the word exp */
+.train-exp, .work-exp {
+    width: 48%;
+}
+
+div > div.info {
+    display: flex;
+    flex-direction: row;
+    /* space between */
+    justify-content: space-between;
+    margin-top: 0px;
+    gap: 2%;
+}
+.info > .job-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0%;
+}
+
+.info-header > .job-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+div.info-header {
+    display: flex;
+    /* flex-direction: column; */
+    align-self: flex-start;
+    /* space between */
+    justify-content: space-between;
+    gap: 5%;
+
+}
+
+footer {
+    text-align: right;
+    /* add padding 10% only width */
+    padding: 1% 20%;
+    /* add grey background */
+    background-color: #3a3a3a;
+    /* text color soft grey */
+    color: #bfbfbf;
+}
+
+.copyrights {
+    /* color: rgb(31, 31, 31); */
+    display: flex;
+    /* display on corners */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+}
+
+header, main:not(.home-info) {
+    /* add padding */
+    padding: 1% 20%;
+    display: flex;
+    /* add justify-content */
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+.home-info {
+    padding: 1% 20%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+header {
+    display: flex;
+    /* center rows */
+    align-items: center;
+}
+
+form {
+    padding: 0% 20%;
+    /* add space between attributes */
+    display: flex;
+    /* add flex-direction */
+    flex-direction: column;
+    /* add justify-content */
+    height: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* remove top margin */
+    margin-top: 0;
+}
+
+.social-media-contact {
+    /* add margin left */
+    margin-left: 5%;
+}
+
+/* define size input type submit */
+input[type="submit"] {
+    background-color: #3a3a3a;
+    /* add color */
+    color: #fff;
+    /* add font-size */
+    font-size: .8rem;
+    /* add font-weight */
+    font-weight: bold;
+    /* add border */
+    border: none;
+    /* add cursor */
+    cursor: pointer;
+    /* center text */
+    width: 8em;
+    height: 2em;
+}
+
+article {
+    /* add padding */
+    padding: 1% 10%; 
+    /* add margin */
+    margin: 1% 10%;
+    /* add display */
+    display: flex;
+    /* add flex-direction */
+    flex-direction: row;
+    /* add justify-content */
+    justify-content: space-between;
+}
+
+/* define sizes images */
+img.project-img {
+    width: 230px;
+    height: 120px;
+}
+
+figure {
+    display: flex;
+    /* add flex-direction */
+    flex-direction: column;
+    /* add justify-content */
+    justify-content: center;
+    /* add align-items */
+    align-items: center;
+}
